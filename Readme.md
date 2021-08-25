@@ -30,12 +30,17 @@ the main issue was that i was losing my data after doing docker down even after 
 
 [for the issue of VOLUMES] (https://github.com/docker-library/mysql/issues/365#issuecomment-364908992)
 
+***
+
+other important info- for some reason docker hub image with volumes only works on mysql:5.6 OFFICIAl Image.Dont ask me why i lost a bunch of time trying to troubleshoot this mess.
+
+***
+
+if you wondering where the host locates your container volume so that everything works when its made another container.
+
+`\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes\dados\_data\AION`
 
 
 
-
-
-
-
-
+### REST API PART
 
