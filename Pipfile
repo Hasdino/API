@@ -12,6 +12,9 @@ flask-mysqldb = "*"
 flask-mysql = "*"
 flask-sqlalchemy = "*"
 pymysql = "*"
+yfinance = "*"
+jinja2 = "*"
+"sqlalchemy.orm" = "*"
 
 [dev-packages]
 
