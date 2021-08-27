@@ -35,7 +35,7 @@ def index():
 
 @app.get("/drinks")
 def get_drinks():
-    return "yo"
+    return "yodsd"
  
 
 
